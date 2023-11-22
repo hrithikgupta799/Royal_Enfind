@@ -1,0 +1,209 @@
+body{
+    margin: 0px ;
+    padding: 0px;
+}
+#bullet{
+    color: white;
+    position: relative;
+}
+#bullet img{
+    width: 100%;
+}
+#bullet div{
+    position: absolute;
+    top: 42%;
+    left: 7%;
+    font-size: 20px;
+}
+#bullet div button{
+    border: none;
+    width: 6rem;
+    height: 2rem;
+    font-size: 15px;
+}
+#bullet h1{
+    font-weight: 800;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+#news{
+    background-color: #212121;
+    color: white;
+}
+#news h1{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem 0rem;
+}
+#news #bikes{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#news #bikes div{
+    width: 25%;
+    position: relative;
+    overflow: hidden;
+}
+#news #bikes div img{
+    height: 200px;
+    width: 100%;
+}
+#news #bikes div p{
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 1rem;
+    line-height: 1.5rem;
+
+}
+#news #bikes div img:hover{
+    transform: scale(1.3);
+    transition: 2s;
+}
+.header1{
+    background-color: #212121;
+    color: white;
+}
+.header1 ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    gap: 1rem;
+    align-items: center;
+    padding: 0.5rem 2rem;
+}
+.header1 ul .red:hover{
+    color: red;
+}
+.imga img{
+    width: 100%;
+}
+#h2{
+    gap: 0.5rem;
+    font-size: 14px;
+}
+#store{
+    padding-right:43rem ;
+}
+#ass{
+    padding-right:46rem ;
+}
+#img1{
+    position: relative;
+}
+#img1 div{
+    position: absolute;
+    top: 73%;
+    left: 81%;
+    font-size: 20px;
+}
+#img1 div button{
+    border: none;
+    width: 6rem;
+    height: 2rem;
+    font-size: 15px;
+}
+#img2{
+    position: relative;
+}
+#img2 div{
+    position: absolute;
+    top: 48%;
+    left: 10%;
+    font-size: 20px;
+}
+#img2 div button{
+    border: none;
+    width: 8rem;
+    height: 2rem;
+    font-size: 15px;
+}
+#img3{
+    position: relative;
+}
+#img3 div{
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    font-size: 20px;
+}
+#img3 div button{
+    background-color: rgb(202, 5, 5);
+    border: none;
+    width: 7rem;
+    height: 2rem;
+    font-size: 15px;
+}
+#symbol{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 12rem 3rem 12rem ;
+    background-color: #212121;
+    color: whitesmoke;
+    text-align: center;
+}
+#symbol div h2 i{
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
+#symbol div h6{
+    font-size: 20px;
+
+}
+footer{
+    background-color: #e5e3e3;
+}
+footer #div1{
+    padding-top:2rem ;
+    margin-left: 61rem;
+}
+footer #div1 p{
+    display: inline; 
+    padding: 6px;
+}
+footer #div1 p i{
+    font-size: 30px;
+    color: black;
+}
+footer #div2{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+}
+footer #div2 ul{
+    padding: 0px;
+    list-style-type: none;
+    margin-bottom: 0px;
+}
+footer #div2 ul h3{
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+footer #div2 ul li{
+    font-size: 14px;
+    padding: 3px;
+}
+footer #div2 ul li:hover{
+    color: red;
+}
+footer #div3{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    font-size: 14px;
+    padding-bottom: 2rem;
+}
+footer #div3 nav p,a{
+    display: inline;
+}
+footer #div3 nav a{
+    text-decoration: none;
+    color: black;
+}
+
